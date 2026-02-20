@@ -1,0 +1,255 @@
+*{
+    margin:0;
+}
+.panel1{
+    background-color:#c0033c;
+    height:30px;
+    font-style:initial;
+    color:white;
+    display:flex;
+    align-items:center
+}
+.text{
+    font-size:0.85rem;
+    margin-left: 100px;
+}
+.text2{
+    margin-left:700px;
+    font-size:0.85rem;
+    display:flex;
+    justify-content: space-evenly;
+    width:400px;
+
+}
+.panel2{
+    background-color: #e40046;
+    height:60px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.logo{
+    margin-left:50px;
+    height:60px;
+    width:150px;
+    background-image:url("logo.png");
+    background-size:cover;
+}
+.input{
+    color:white;
+    background-color:#e40046;
+    display:flex;
+    height:35px;
+    width:700px;
+}
+.input input{
+    width:600px;
+    border:border-box;
+    border:2px solid white;
+    border-bottom-left-radius:0.1rem ;
+    border-top-left-radius: 0.1rem;
+}
+.search{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    background-color:black;
+    width:100px;
+    font-size:0.9rem;
+    border-top-right-radius: 0.1rem;
+    border-bottom-right-radius: 0.1rem;
+}
+.search:hover{
+    background-color:rgb(41, 34, 34);
+}
+.side{
+    display:flex;
+    height:60px;
+}
+.cart{
+    background-color: #e40046;
+    color:white;
+    height:60px;
+    width:120px;
+    font-size:1rem;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    border-left:0.2px solid black;
+    border-right:0.2px solid black;
+    border:border-box;
+}
+.cart:hover{
+    background-color: #dd424e;
+}
+.signin{
+     background-color: #e40046;
+    color:white;
+    height:60px;
+    width:120px;
+    font-size:1rem;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.signin:hover{
+    background-color: #dd424e;
+}
+.content{
+    background-color:rgb(242, 238, 238);
+    height:800px;
+     display:flex;
+    justify-content: space-evenly; 
+}
+.section1{
+    display:flex;
+    justify-content:space-evenly;
+}
+.list{
+    width:200px;
+    height:750px;
+    background-color: white;
+    margin-top:20px;
+    margin-left:30px;
+}
+.list p{
+    margin:20px;
+    color:gray;
+}
+ul{
+    margin-top:20px;
+    color:gray;
+}
+.image{
+    height:300px;
+    width:920px;
+    background-image:url("backgndima.png");
+    background-size:cover;
+}
+.image_bar{
+    height:50px;
+    width:920px;
+    display:flex;
+    background-color:white;
+    color:grey;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.locate{
+    height:350px;
+    width:250px;
+    background-color: white;
+    display:flex;
+    border:border-box;
+    border:0.5px solid grey;
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items:center;
+    margin-left:25px;
+}
+.locimage{
+    font-size:70px;
+    color:yellow;
+}
+
+.buttons{
+    margin:20px;
+}
+.buttons input{
+    margin-top:5px;
+    font-size:15px;
+}
+
+.sub{
+    display:flex;
+    justify-content:space-evenly;
+    width:200px;
+}
+.sub input{
+    background-color: black;
+    color:white;
+    font-size:15px;
+}
+.section2{
+    margin-top:20px;
+    height:300px;
+    width:1150px;
+    display:flex;
+    /* justify-content: center; */
+}
+.box1{
+    width:350px;
+    height:300px;
+    margin:2px;
+    background-image:url("image1.avif");
+    background-size:cover;
+}
+.box2{
+    width:350px;
+    height:300px;
+    margin:2px;
+    background-image:url("image2.avif");
+    background-size:cover;
+}
+.box3{
+    width:350px;
+    height:300px;
+    margin:2px;
+    background-image:url("image3.avif");
+    background-size:cover;
+}
+.box4{
+    width:350px;
+    height:300px;
+    margin:2px;
+    background-image:url("image4.avif");
+    background-size:cover;
+}
+.box5{
+    width:350px;
+    height:300px;
+    margin:2px;
+    background-image:url("image5.avif");
+    background-size:cover;
+}
+.item_panel{
+    height:50px;
+    width:1150px;
+    color:gray;
+    background-color:white;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.Cover{
+    height:400px;
+    width:1400px;
+    margin-top:30px;
+    background-color:rgb(242, 238, 238);
+    background-image: url("cover.png");
+    background-size:cover;
+}
+.info{
+    display:flex;
+    height:200px;
+    width:900;
+    justify-content: space-evenly;
+    align-items: center;
+    color:gray;
+}
+.about{
+    height:325px;
+    width:1520px;
+    font-size: 16px;
+    background-color:rgb(242, 238, 238);
+    color:gray;
+}
+.symbol{
+    height:30px;
+    width:1520px;
+    text-align: right;
+}
+.symbol i{
+    color:red;
+    margin-right:50px;
+}
